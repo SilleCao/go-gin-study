@@ -19,3 +19,15 @@
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on :8080
 ::1 - [17 Jun 22 17:36 CST] POST /api/videos 401 1.1201ms 
+::1 - [17 Jun 22 17:39 CST] POST /api/videos 401 807.6µs 
+::1 - [17 Jun 22 17:39 CST] POST /api/videos 401 2.4027ms 
+::1 - [17 Jun 22 17:39 CST] POST /login 200 5.8006072s 
+::1 - [17 Jun 22 17:39 CST] POST /api/videos 401 849.6µs 
+::1 - [17 Jun 22 17:40 CST] POST /api/videos 401 890µs 
+::1 - [17 Jun 22 17:41 CST] POST /api/videos 200 234.4µs 
+::1 - [17 Jun 22 17:41 CST] GET /videos 404 1.5125ms 
+::1 - [17 Jun 22 17:41 CST] GET /api/videos 200 891.4µs 
+::1 - [17 Jun 22 17:41 CST] GET /view/videos 200 2.1543ms 
+::1 - [17 Jun 22 17:41 CST] GET / 404 527.5µs 
+[GIN-debug] redirecting request 301: /view/videos --> /view/videos
+::1 - [17 Jun 22 17:41 CST] GET /view/videos 200 2.0571ms 
